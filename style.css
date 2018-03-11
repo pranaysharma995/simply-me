@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face{
+    font-family:Montserral;
+    src:url(font/Montserrat-Regular.otf);
+}
+
+div.top-nav{
+    background-color: #f2f5f7;
+    padding: 1.5em 0em;
+}
+div.mobile-nav{
+    display: none;
+}
+div.mobile-nav h1{
+    color: #555;
+    font-family: Montserral;
+    font-size: 25px;
+    
+}
+div.button{
+    padding: 5% 20%;
+}
+div.mobile-nav button{
+    background-color: transparent;
+    border: none;
+    outline:none;
+    color: #555;
+    font-size: 25px;
+}
+div.name>h1{
+    color: #555555;
+    font-family: Montserral;
+    font-size: 18px;
+    line-height: 20px;
+}
+div.pagelink ul li a{
+    color: #555;
+    font-family: Montserral;
+    text-decoration: none;
+    font-size:18px;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+div.pagelink{
+    padding-top: 1.5em;
+    padding-left: 25%;
+}
+div.hero-banner{
+    background-color: #1abc9c;
+    text-align: center;
+    padding: 4% 0%;
+}
+div.hero-banner>h1{
+    color: #fff;
+    font-family: Montserral;
+    font-size: 24px;
+    line-height: 26px;
+}
+div.hero-banner>img{
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+    margin: 3% 0%;
+}
+div.who-am-i{
+    background-color: #474e5d;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    text-align: center;
+}
+div.who-am-i h1{
+    font-size: 24px;
+    line-height: 26px;
+    font-family: Montserral;
+    color: #fff;
+    margin: 1.8em 0em;
+}
+div.who-am-i p{
+    font-size: 16px;
+    line-height: 30px;
+    font-family: Montserral;
+    color: #fff;
+    padding: 0em 1.5em;
+    margin-bottom: 2%;
+}
+div.who-am-i a{
+    background-color: #fff;
+    text-decoration: none;
+    color: #333;
+    border-radius: 8px;
+    padding: 10px 10px;
+    font-size: 20px;
+    font-family: Montserral;
+}
+div.who-am-i a>i{
+    margin: 0px 5px;
+    color: #000;
+}
+div.where-to-find{
+    background-color: #fff;
+    padding-bottom: 7%;
+}
+div.where-to-find>h1{
+    color: #555;
+    font-family: Montserral;
+    text-align: center;
+    padding: 5% 0%;
+    font-size: 24px;
+}
+div.col-md-4>h2{
+    color: #555;
+    font-family: Montserral;
+    text-align: center;
+    font-size: 24px;
+    
+}
+div.col-md-4>img{
+    width: 100%;
+    height: auto;
+}
+div.col-md-4>p{
+    font-family: Montserral;
+    font-size: 16px;
+    line-height: 30px;
+    color: #555;
+    text-align: center;
+}
+div.footer{
+    background-color: #333;
+    text-align: center;
+    padding: 5% 0%;
+}
+div.footer>h4{
+    color: #fff;
+    font-family: Montserral;
+}
+div.mobile-nav div.col-xs-12{
+    display: none;
+}
+div.mobile-menu ul li{
+    list-style: none;
+    padding: 10px 0px;
+}
+div.mobile-menu ul li a{
+    color: #555;
+    font-family: Montserral;
+    text-decoration: none;
+}
+div.mobile-menu ul li a:hover{
+    color: #333;
+}

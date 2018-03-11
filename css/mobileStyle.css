@@ -1,0 +1,18 @@
+@media only screen and (max-width:900px)
+{
+    div.mobile-nav,div.mobile-nav h1,div.mobile-nav button{
+        display: block !important;
+    }
+    div.desktop-nav{
+        display:none;
+    }
+    div.button{
+        padding: 5% 25% !important;
+    }
+    div.who-am-i{
+        padding-bottom: 16% !important;
+    }
+    div.who-am-i p{
+        padding-bottom: 10% !important;
+    }
+}
